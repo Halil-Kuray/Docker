@@ -5,6 +5,18 @@
 Bu komut, Docker Compose'unuzda belirtilen tüm hizmetleri başlatır.
 Yani, web ve db hizmetlerimiz ayağa kalkacak.
 
+## Eğer dosya adınız docker-compose.yml değilse, 
+-f parametresi ile dosya adınızı belirtin. Örneğin docker compose -f file_name.yaml up
+
+## docker ps veya docker container ls
+komutunu çalıştırarak oluşturulan container'ı görebilirsiniz.
+
+## docker volume ls 
+komutunu çalıştırarak oluşturulan volume'u görebilirsiniz.
+
+## docker network ls 
+komutunu çalıştırarak oluşturulan network'leri görebilirsiniz.
+
 ## docker-compose down
 
 Bu komut, Docker Compose tarafından yönetilen tüm hizmetleri durdurur ve kaldırır. Yani, uygulamanızı durdurmak istediğinizde kullanabilirsiniz.
