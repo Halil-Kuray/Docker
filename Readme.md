@@ -50,3 +50,27 @@ Container'ların veri kaynaklarını tanımlar. Bu, verilerin container'lar aras
 ## networks
 
 Container'lar arasındaki ağ bağlantılarını tanımlar.
+
+## environment
+
+Container'lar için ortam değişkenlerini tanımlar.
+
+## depends_on
+
+Container'lar arasındaki bağımlılıkları tanımlar.
+
+## extends
+
+Ayrı ayrı tanımlanmış olan containerların ortak olan ayarlarını kullanmak için kullanılabilir.
+
+## ports
+
+Containerların host makineye açacağı portlar tanımlanabilir.
+
+## restart
+
+Containerların nasıl yeniden başlatılacağını tanımlanabilir.
+
+## command
+
+Containerların başlatılırken çalıştırılması gereken komutlar tanımlanabilir.
