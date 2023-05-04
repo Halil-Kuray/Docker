@@ -1,0 +1,10 @@
+{
+    "name": "Docker Course",
+    "price": 100,
+    "isFree": false,
+    "tags": ["devops", "software"],
+    "author":{
+        "firstName": "Ibrahim Halil",
+        "lastName": "Kuray"
+    }
+}

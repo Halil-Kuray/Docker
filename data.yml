@@ -1,0 +1,11 @@
+--- #Burada bir yml dosyasinin basladigi deklare ediliyor.
+
+name: Docker Course
+price: 100
+isFree: false
+tags: #Burasi bir diziyi tanimlama seklidir.
+  - devops
+  - software
+author: #Burasi bir objeyi tanimlama seklidir.
+  firstName: Ibrhaim Halil
+  lastName: Kuray
