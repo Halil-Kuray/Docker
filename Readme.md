@@ -74,3 +74,54 @@ Containerların nasıl yeniden başlatılacağını tanımlanabilir.
 ## command
 
 Containerların başlatılırken çalıştırılması gereken komutlar tanımlanabilir.
+
+## labels
+Containerların etiketleri tanımlanabilir.
+
+## tmpfs
+Containerların tmpfs kullanmasının yapılandırılmasını yapabilirsiniz.
+
+## build
+Container'ların nasıl oluşturulduğunu tanımlar. Bu, bir Dockerfile kullanarak container'ların nasıl oluşturulduğunu belirten bir dizin belirtmenizi sağlar.
+
+## cap_add
+Container'lar için ekstra yetkiler tanımlar.
+
+## cap_drop
+Container'lar için yetkileri kaldırır.
+
+## cgroup_parent
+Container'ların cgroup parent'ını tanımlar.
+
+## devices
+Container'ların host makineye erişebileceği aygıtları tanımlar.
+
+## dns
+Container'ların DNS sunucularını tanımlar.
+
+## dns_search
+Container'ların DNS arama alanlarını tanımlar.
+
+## entrypoint
+Container'ların giriş noktasını tanımlar. Bu, container'ların nasıl çalıştırılacağını belirler ve komut satırından verilen komutları etkilemez.
+
+## env_file
+Container'lar için ortam değişkenlerinin yer aldığı bir dosya tanımlar.
+
+## expose
+Container'ların açtığı portları belirtir, ancak host makineye açılmaz.
+
+## external_links
+Container'lar için harici linkler tanımlar.
+
+## extra_hosts
+Container'lar için ekstra DNS girişlerini tanımlar.
+
+## logging
+Container'lar için günlükleme ayarlarını tanımlar.
+
+## ulimits
+Container'lar için sistem kaynak sınırlarını tanımlar.
+
+## user
+Container'lar için çalıştırılacak kullanıcıyı tanımlar.
